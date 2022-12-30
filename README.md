@@ -356,4 +356,8 @@ jboolean isEqual = (*env)->IsSameObject(env, g_obj_ref, NULL);
 
  
 
- 
+目录中CMAKENDKDemo01是一个简单的例子，该例子通过3步完成了jni的调用：
+
+- 创建CPP目录，并按照规则添加C语言代码
+- 编写CMakeLists.txt
+- 在build.gradle中配置CMakeLists.txt
